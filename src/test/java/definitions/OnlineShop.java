@@ -133,6 +133,7 @@ public class OnlineShop {
 	  //  throw new cucumber.api.PendingException();
 		driver.findElement(By.xpath("/html/body/div[1]/form/input")).click();
 		
+		
 	}
 
 	@Then("user adds the product to the cart and proceeds for the payment")
